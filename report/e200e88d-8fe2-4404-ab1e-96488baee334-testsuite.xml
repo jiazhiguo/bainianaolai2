@@ -1,0 +1,63 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1549979424206" stop="1549979463255">
+  <name>scripts.test_receiving_address</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1549979424206" status="passed" stop="1549979463241">
+      <description>
+        登录
+        :param username:
+        :param password:
+        :return:
+        </description>
+      <name>TestAddress.test_login[13488834010-159357li]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21456-MainThread"/>
+        <label name="host" value="jiazhiguo"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1549979446271" status="passed" stop="1549979449464">
+          <name>点击我的</name>
+          <title>点击我的</title>
+          <attachments>
+            <attachment source="f1eada43-9b19-4135-abbc-cecd40a245fa-attachment.txt" title="点击我的" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1549979449464" status="passed" stop="1549979452534">
+          <name>点击已有账号</name>
+          <title>点击已有账号</title>
+          <attachments>
+            <attachment source="c2ecfb65-427c-442b-bf46-9478a415f559-attachment.txt" title="点击已有账号" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+        <step start="1549979452534" status="passed" stop="1549979463241">
+          <name>测试登录</name>
+          <title>测试登录</title>
+          <attachments>
+            <attachment source="5aebfba1-96ab-49fb-bb0e-6a1afa8a21c9-attachment.txt" title="登录" type="text/plain"/>
+            <attachment source="ee7c1cf9-02fc-4036-9e30-cc5012e80e09-attachment.txt" title="登录" type="text/plain"/>
+            <attachment source="a3557645-ad86-4370-84b6-3bc1a0909e86-attachment.txt" title="登录" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1549979463253" status="passed" stop="1549979463255">
+      <name>TestAddress.test_add_address</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="21456-MainThread"/>
+        <label name="host" value="jiazhiguo"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
